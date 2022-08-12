@@ -1,6 +1,7 @@
 #
 ## BIP related services (Begin)
 #
+
 on property:vendor.volte_md_status=ready
     start vendor.bip
 

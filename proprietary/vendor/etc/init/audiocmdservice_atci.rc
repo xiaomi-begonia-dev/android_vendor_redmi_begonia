@@ -5,4 +5,3 @@ service audio-daemon /vendor/bin/audiocmdservice_atci
     group system audio
     disabled
     oneshot
-

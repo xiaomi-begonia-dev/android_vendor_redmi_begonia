@@ -24,7 +24,6 @@ service teei_daemon /vendor/bin/teei_daemon \
     -t 09010000000000000000000000000000
     class core
     disabled
-   # oneshot
 
 on boot
     chown system system /sys/bus/platform/devices/utos/dcih_notify_test
@@ -33,7 +32,7 @@ on boot
     chown system system /sys/bus/platform/devices/utos/unload_ut_drv
     chown system system /sys/bus/platform/devices/utos/notify_ree_dci_handler
 
-#for All mode
+# For mode "All"
 on load_persist_props_action
     write /proc/bootprof "start teei cfg (on load_persist_props_action)"
     mkdir /data/vendor/thh
@@ -235,4 +234,4 @@ on property:vendor.crypto.fake_encrypt=1 && property:vold.post_fs_data_done=1
     setprop vendor.soter.teei.crypto.state unencrypted
 
 on post-fs-data
-	setprop vendor.soter.teei.logini "start"
+    setprop vendor.soter.teei.logini "start"

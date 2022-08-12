@@ -9,10 +9,10 @@ service atcid-daemon-u /vendor/bin/atcid
     oneshot
 
 on property:persist.vendor.service.atci.autostart=1
-start atcid-daemon-u
+    start atcid-daemon-u
 
 on property:persist.vendor.service.atci.atm_mode=1
-start atcid-daemon-u
+    start atcid-daemon-u
 
 on property:sys.boot_completed=1
-setprop vendor.mtk.atci.boot_completed 1
+    setprop vendor.mtk.atci.boot_completed 1

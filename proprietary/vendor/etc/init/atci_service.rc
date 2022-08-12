@@ -6,7 +6,7 @@ service atci_service /vendor/bin/atci_service
     group radio system
 
 on property:ro.build.type=eng
-start atci_service
+    start atci_service
 
 on property:persist.vendor.service.atci.autostart=1
-start atci_service
+    start atci_service

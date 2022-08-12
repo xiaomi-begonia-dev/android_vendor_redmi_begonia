@@ -13,17 +13,5 @@ on post-fs
 on boot
     start batteryd
 
-#run batteryd in off-charge mode
 on charger
     start batteryd
-
-service batterylog /system/bin/sh /system/bin/batterylog.sh
-    class main
-    user root
-    group system
-    disabled
-    oneshot
-    seclabel u:r:batteryd:s0
-
-on property:persist.sys.offlinelog.batteryd=true
-    start batterylog

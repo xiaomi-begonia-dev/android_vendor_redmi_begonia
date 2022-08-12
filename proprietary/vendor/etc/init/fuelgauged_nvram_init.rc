@@ -3,4 +3,3 @@ service fuelgauged_nvram /vendor/bin/fuelgauged_nvram
     user system
     group system
     oneshot
-
