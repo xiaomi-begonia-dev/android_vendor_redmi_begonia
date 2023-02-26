@@ -93,8 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.atci@1.0.so \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
@@ -819,14 +817,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
     vendor/redmi/begonia/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/redmi/begonia/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc2375af_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375af_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc2375af_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375af_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc2375alpha_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375alpha_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc2375alpha_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375alpha_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc2375beta_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375beta_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc2375beta_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375beta_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc5035_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035_mipi_raw_tuning.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -849,9 +839,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/sound_trigger.primary.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6785.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/thermal.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6785.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
@@ -874,206 +861,10 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.lce.so \
     vendor/redmi/begonia/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
     vendor/redmi/begonia/proprietary/vendor/lib/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.n3d3a.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Flash_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Flash_Preview_PF.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_HDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_MFSR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_MFSR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Video_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Video_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375afmipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375afmipiraw_Zoom_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375alphamipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375alphamipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375alphamipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375alphamipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375alphamipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375alphamipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375betamipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375betamipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375betamipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375betamipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc2375betamipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc2375betamipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc5035mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035mipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc5035mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035mipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_gc5035mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035mipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Flash_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Flash_Preview_PF.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_HDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_MFSR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_MFSR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Video_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Video_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10afmipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10afmipiraw_Zoom_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10alphamipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10alphamipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10alphamipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10alphamipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10alphamipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10alphamipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10betamipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10betamipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10betamipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10betamipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov02a10betamipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02a10betamipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Flash_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Flash_Preview_PF.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_HDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video720P_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video720P_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video720P_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video720P_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_Face_Preview_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_Face_Preview_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_Preview_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_Preview_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video720P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video720P_2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video720P_2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video_2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video_2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video_EIS_2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Zoom_Video_EIS_2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Flash_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Flash_Preview_PF.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_HDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Video720P_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Video720P_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Video720P_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Video720P_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Video_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Video_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Video_Face_Preview_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Video_Face_Preview_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Video_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Video_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Video_Preview_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Video_Preview_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Video720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Video720P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Video720P_2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Video720P_2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Video_2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Video_2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Video_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Video_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_ov8856sunnymipiraw_Zoom_Video_EIS_2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856sunnymipiraw_Zoom_Video_EIS_2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_3rd_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_3rd_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_AutoHDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_FaceUnlock_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_FaceUnlock_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_Portrait_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_Portrait_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_QQ_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_QQ_Capture_1080P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_QQ_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_QQ_Capture_480P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_Scene_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_Scene_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1ofilmmipiraw_YUV_Reprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1ofilmmipiraw_YUV_Reprocess.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_3rd_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_3rd_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_AutoHDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_FaceUnlock_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_FaceUnlock_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_Portrait_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_Portrait_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_QQ_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_QQ_Capture_1080P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_QQ_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_QQ_Capture_480P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_Scene_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_Scene_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t1sunnymipiraw_YUV_Reprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t1sunnymipiraw_YUV_Reprocess.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_3rd_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_3rd_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_AutoHDR_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_FaceUnlock_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_FaceUnlock_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_Portrait_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_Portrait_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_QQ_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_QQ_Capture_1080P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_QQ_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_QQ_Capture_480P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_Scene_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_Scene_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5k3t2mipiraw_YUV_Reprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3t2mipiraw_YUV_Reprocess.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Face_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Face_Capture_64.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Flash_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Flash_Preview_PF.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_HDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_HDR_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_HDR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_HDR_Scene_Capture_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_HDR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_HDR_Scene_Capture_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture_ChatMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture_ChatMode.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Capture_64.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Capture_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Capture_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_SuperNS_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Torch_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Torch_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_1080P_60fps.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_1080P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_1080P_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_480P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_4K.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_1080P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_1080P_120fps.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_240fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_240fps.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_Video_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_portrait_capture_full.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1ofilmmipiraw_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1ofilmmipiraw_portrait_preview_full.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Face_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Face_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Face_Capture_64.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Flash_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Flash_Preview_PF.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_HDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_HDR_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_HDR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_HDR_Scene_Capture_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_HDR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_HDR_Scene_Capture_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Reserved.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_64.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Face_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Preview.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Torch_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Torch_Capture.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_1080P_60fps.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_1080P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_1080P_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_480P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_4K.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_4K_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_4K_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_4K_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_4K_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_720P.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_720P_1080P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_720P_1080P_120fps.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_720P_240fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_720P_240fps.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_720P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_720P_EIS.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_EIS_Default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_EIS_Default.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_Zoom1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_Video_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_Video_Zoom2.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_portrait_capture_full.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
@@ -1085,14 +876,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibrary.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibraryWrapper.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibraryWrapper.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibrary.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/redmi/begonia/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/redmi/begonia/proprietary/vendor/lib/lib_smartpa_nxp_ap.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_smartpa_nxp_ap.so \
@@ -1104,7 +887,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libakm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakm.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-v30.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
@@ -1129,28 +911,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.ArcCamEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.ArcCamEngine.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.feature_utils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.log.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.hal3a.v3.lscMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lscMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.hal3a.v3.lsctbl.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lsctbl.50.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.hal3a.v3.nvram.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.nvram.50.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.pdtblgen.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcam3a_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam3a_imem.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamalgo.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.flicker.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ispfeature.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamalgo.vpunr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.vpunr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_twin.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
@@ -1195,17 +955,10 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhydra.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_pipe.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimgsensorca.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsg_log.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/redmi/begonia/proprietary/vendor/lib/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblogwrap_vendor.so \
@@ -1219,26 +972,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.logicalmodule.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_convertor.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_provider.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_exif.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_grallocutils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwutils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_mapping_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mapping_mgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metastore.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulehelper.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_streamutils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_sysutils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_tsf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tsf.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
@@ -1318,35 +1051,11 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/redmi/begonia/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
     vendor/redmi/begonia/proprietary/vendor/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov02a10af_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10af_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov02a10af_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10af_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov02a10alpha_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10alpha_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov02a10alpha_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10alpha_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov02a10beta_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10beta_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov02a10beta_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10beta_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov8856ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856ofilm_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov8856ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856ofilm_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov8856sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856sunny_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/ov8856sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856sunny_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5k3t1ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3t1ofilm_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5k3t1ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3t1ofilm_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5k3t1sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3t1sunny_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5k3t1sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3t1sunny_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5k3t2_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3t2_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5k3t2_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3t2_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5kgw1ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgw1ofilm_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5kgw1ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgw1ofilm_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5kgw1sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgw1sunny_mipi_raw_IdxMgr.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/s5kgw1sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgw1sunny_mipi_raw_tuning.so \
     vendor/redmi/begonia/proprietary/vendor/lib/se_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/se_extn_client.so \
     vendor/redmi/begonia/proprietary/vendor/lib/secure_element-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/secure_element-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
